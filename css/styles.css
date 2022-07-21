@@ -26,6 +26,12 @@
     margin-top: 0;
     margin-bottom: 0;
  }
+img {
+    display: block;
+}
+button {
+    cursor: pointer;
+}
 
 .list {
     list-style: none;
