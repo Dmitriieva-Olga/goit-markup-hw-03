@@ -45,19 +45,44 @@ body {
     color: #212121;
 }
    /*=========Header=====*/
+.page-heder {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .container {
     width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    color: var(--title-color);
    }
+
 .page-header-container {
     display: flex;
     align-items: center;
   }
-  .page-nav {
+.page-nav {
     display: flex;
+    align-items: center;
     }
+ 
+.menu {
+    display:flex;
+}
+
+.menu-list {
+display: flex;
+align-items: center;
+margin-left: auto;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.contact-list:not(:last-child) {
+    margin-right: 50px;
+}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -66,7 +91,9 @@ body {
     
     letter-spacing: 0.03em;
     color:var(--fon-color);
+    margin-left: 93px;
 }
+
 .logo-color {
     color:#000000
 }
