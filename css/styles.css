@@ -161,6 +161,10 @@ background: #188ce8;
 }
 
 /*========Menu SITE=======*/
+.operational-benefits {
+    display: flex;
+    gap: 30px;
+}
 .heading {
     font-size: 14px;
     font-weight: 700;
@@ -168,6 +172,7 @@ background: #188ce8;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--tekst-color);
+    margin-bottom: 10px;
 }
 .content {
     font-weight: 400;
