@@ -56,7 +56,10 @@ body {
     padding-right: 15px;
     color: var(--title-color);
    }
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .page-header-container {
     display: flex;
     align-items: center;
@@ -127,7 +130,7 @@ color:var(--fon-color);
     background:var(--hero-color);
 
 }
-.article__title {
+.article-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -136,6 +139,11 @@ color:var(--fon-color);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color:var(--title-color);
+    width: 696px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 
 }
 .modal-btn {
@@ -175,10 +183,12 @@ background: #188ce8;
     margin-bottom: 10px;
 }
 .content {
-    font-weight: 400;
-    line-height: 1.71%;
-    letter-spacing: 0.03em;
-    color: var(--coment-color);
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--contact-color);
+width: 270px;
+height: 75px;
 }
 
 /*========What we do======*/
