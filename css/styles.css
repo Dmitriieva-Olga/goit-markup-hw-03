@@ -211,7 +211,10 @@ background: #188ce8;
     gap: 30px;
 }
 /* ========== TEAM ==========*/
-
+.team-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .title-team {
     font-weight: 700;
     font-size: 36px;
