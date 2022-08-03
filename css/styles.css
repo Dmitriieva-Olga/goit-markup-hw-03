@@ -215,6 +215,22 @@ background: #188ce8;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.team-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.job-position {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--tekst-color);
+    margin-bottom: 10px;
+}
+
 .title-team {
     font-weight: 700;
     font-size: 36px;
@@ -249,12 +265,18 @@ background: #188ce8;
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-/*========footer==========*/
+/*========Footer==========*/
+.logo-footer {
+    display: block;
+    margin-bottom: 20px;
+}
 .page-footer {
-background: var(--hero-color);
+    background: var(--hero-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .logo-color-w {
-color: var(--title-color);
+    color: var(--title-color);
 }
 .adress-footer {
     font-style: normal;
