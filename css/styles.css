@@ -64,7 +64,7 @@ body {
     line-height: 1.19px;
     letter-spacing: 0.03em;
     color: var(--fon-color);
-    margin-left: 93px;
+    margin-right: 93px;
 }
    /*=========Header=====*/
 .page-header-container {
@@ -72,7 +72,7 @@ body {
     align-items: center;
    }
 
-.menu-item:not(:last-child) {
+.item-menu:not(:last-child) {
     margin-right: 50px;
 }
 
