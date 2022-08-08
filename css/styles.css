@@ -61,7 +61,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--fon-color);
     margin-right: 93px;
@@ -120,6 +120,8 @@ align-items: center;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--coment-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .contact-header:hover,
