@@ -95,9 +95,11 @@ align-items: center;
     margin-left: auto;
 }
 
-.page-header {
+.page-heder {
     background-color: var(--title-color);
     border-bottom: 1px solid #ececec;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .logo-color {
     color: #000000
